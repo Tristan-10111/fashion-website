@@ -5,8 +5,8 @@
 }
 body {
   overflow: scroll;
-  max-width: 1440px;
-  max-height: 3784px;
+  width: 100%;
+  /* height: 3784px; */
 }
 .navbar {
   background: white;
@@ -150,35 +150,789 @@ nav ul li a {
   border-radius: 9px;
   color: white;
   font-size: 30px;
+  cursor: pointer;
 }
+
 .landing-page {
   background-image: url(/images/wp2520354-snapback-wallpapers.jpg);
 }
 
 .box1 {
   position: absolute;
-  width: 420px;
+  width: 350px;
   height: 364px;
-  left: 40px;
+  left: 50px;
   top: 691px;
   border: 1px solid transparent;
   border-radius: 9px;
+  cursor: pointer;
+}
+.paragraph6 {
+  position: absolute;
+  width: 194px;
+  height: 51px;
+  left: 100px;
+  top: 845px;
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.box1:hover {
+  opacity: 0.8;
 }
 .box2 {
   position: absolute;
-  width: 420px;
+  width: 350px;
   height: 364px;
-  left: 510px;
+  left: 490px;
   top: 691px;
+  cursor: pointer;
+}
+.paragraph7 {
+  position: absolute;
+  width: 107px;
+  height: 51px;
+  left: 604px;
+  top: 845px;
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.box2:hover {
+  opacity: 0.8;
 }
 .box3 {
   position: absolute;
-  width: 420px;
+  width: 350px;
   height: 364px;
-  left: 970px;
+  left: 950px;
   top: 691px;
+  cursor: pointer;
+}
+.paragraph8 {
+  position: absolute;
+  width: 165px;
+  height: 51px;
+  left: 1045px;
+  top: 847px;
+  font-family: "MuseoModerno";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.box3:hover {
+  opacity: 0.8;
 }
 
 .heading1 {
   position: absolute;
+  width: 399px;
+  height: 50px;
+  left: 460px;
+  top: 1108px;
+  /* styling */
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  opacity: 0.52;
+}
+
+.sub-heading1 {
+  position: absolute;
+  width: 270px;
+  height: 40px;
+  left: 134px;
+  top: 1247px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  opacity: 0.52;
+}
+
+.sub-heading2 {
+  position: absolute;
+  width: 160px;
+  height: 40px;
+  left: 577px;
+  top: 1247px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  opacity: 0.52;
+}
+
+.sub-heading3 {
+  position: absolute;
+  width: 171px;
+  height: 40px;
+  left: 950px;
+  top: 1247px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+
+  opacity: 0.52;
+}
+.box4 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 40px;
+  top: 1370px;
+  cursor: pointer;
+}
+
+.box5 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 40px;
+  top: 1808px;
+  cursor: pointer;
+}
+
+.box6 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 40px;
+  top: 2286px;
+  cursor: pointer;
+}
+
+.box7 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 465px;
+  top: 1370px;
+  cursor: pointer;
+}
+
+.box8 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 465px;
+  top: 1808px;
+  cursor: pointer;
+}
+
+.box9 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 465px;
+  top: 2286px;
+  cursor: pointer;
+}
+
+.box10 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 895px;
+  top: 1370px;
+  cursor: pointer;
+}
+
+.box11 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 895px;
+  top: 1808px;
+  cursor: pointer;
+}
+
+.box12 {
+  position: absolute;
+  width: 344px;
+  height: 250px;
+  left: 895px;
+  top: 2286px;
+  cursor: pointer;
+}
+
+.heading2 {
+  position: absolute;
+  width: 183px;
+  height: 40px;
+  left: 560px;
+  top: 2779px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.btn2 {
+  position: absolute;
+  width: 260px;
+  height: 68px;
+  left: 527px;
+  top: 3019px;
+  background: #545c52;
+  mix-blend-mode: hard-light;
+  border: 5px solid #f7c548;
+  border-radius: 9px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.box13 {
+  position: absolute;
+  width: 362px;
+  height: 300px;
+  left: 2px;
+  top: 2902px;
+  cursor: pointer;
+}
+.box14 {
+  position: absolute;
+  left: 331px;
+  top: 2902px;
+  cursor: pointer;
+}
+.box15 {
+  position: absolute;
+  left: 663px;
+  top: 2902px;
+  cursor: pointer;
+}
+.box16 {
+  position: absolute;
+  left: 1000px;
+  top: 2902px;
+  cursor: pointer;
+}
+
+.logo2 {
+  position: absolute;
+  width: 300px;
+  height: 57px;
+  left: 50px;
+  top: 3277px;
+  font-family: "Tapestry";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #151414;
+}
+
+.paragraph2 {
+  position: absolute;
+  width: 504px;
+  height: 152px;
+  left: 50px;
+  top: 3325px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.heading3 {
+  position: absolute;
+  width: 152px;
+  height: 57px;
+  left: 50px;
+  top: 3600px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 57px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.paragraph3 {
+  position: absolute;
+  width: 196px;
+  height: 48px;
+  left: 234px;
+  top: 3605px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.heading4 {
+  position: absolute;
+  width: 160px;
+  height: 56px;
+  left: 728px;
+  top: 3278px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.paragraph4 {
+  position: absolute;
+  width: 504px;
+  height: 152px;
+  left: 730px;
+  top: 3325px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.paragraph5 {
+  position: absolute;
+  width: 400px;
+  height: 38px;
+  left: 50px;
+  top: 3750px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+#social-links {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 1000px;
+  top: 3750px;
+}
+#social-links2 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 948px;
+  top: 3750px;
+}
+#social-links3 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 882px;
+  top: 3750px;
+}
+#social-links4 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  left: 822px;
+  top: 3750px;
+}
+
+.description {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 37px;
+  top: 1660px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #545c52;
+}
+
+.price {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 37px;
+  top: 1728px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #545c52;
+}
+
+.description2 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 37px;
+  top: 2090px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+.price2 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 37px;
+  top: 2146px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.description3 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 37px;
+  top: 2580px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.price3 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 37px;
+  top: 2640px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.description4 {
+  position: absolute;
+  width: 400px;
+  height: 40px;
+  left: 468px;
+  top: 1660px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+.price4 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 468px;
+  top: 1728px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.description5 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 468px;
+  top: 2090px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.price5 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 468px;
+  top: 2146px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+.description6 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 468px;
+  top: 2580px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.price6 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 468px;
+  top: 2640px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.description7 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 900px;
+  top: 1660px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.price7 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 900px;
+  top: 1728px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.description8 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 900px;
+  top: 2090px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.price8 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 900px;
+  top: 2146px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #545c52;
+}
+
+.description9 {
+  position: absolute;
+  width: 300px;
+  height: 40px;
+  left: 900px;
+  top: 2580px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
+}
+
+.price9 {
+  position: absolute;
+  width: 97px;
+  height: 40px;
+  left: 900px;
+  top: 2640px;
+
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #545c52;
 }
